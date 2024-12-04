@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    font-family: "Geologica", sans-serif;
+}
+
+nav{
+    position: fixed;
+    height: 10vh;
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+}
+.right_side, .left_side{
+    display: flex;
+    align-items: center;
+}
+.right_side ul{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+
+    
+}
+.right_side li{
+    list-style: none;
+    padding-left: 5%;
+    margin: 5%;
+    cursor: pointer;
+}
