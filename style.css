@@ -31,8 +31,10 @@ nav{
 
     
 }
-.right_side li{
+.right_side a{
+    text-decoration: none;
     list-style: none;
+    color: aliceblue;
     padding-left: 5%;
     margin: 5%;
     cursor: pointer;
