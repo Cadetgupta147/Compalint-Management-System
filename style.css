@@ -39,3 +39,19 @@ nav{
     margin: 5%;
     cursor: pointer;
 }
+.login{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.login_container{
+    background-color:bisque;
+    color: black;
+    /* position: absolute; */
+    /* top: 10vh; */
+    height: 40vh;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
